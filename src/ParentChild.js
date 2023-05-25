@@ -4,7 +4,8 @@ class ParentChild extends Component {
   render() {
     return (
       <div>
-        <div className='myFeedBack'>    
+        <div className='myFeedBack'>   
+        <h1>Employee FeedBack Data</h1> 
             {this.props.FeedBack.map((item)=>{
                 return(
                     <h4>Name: {item.name} | Department: {item.department} | Rating: {item.rating}</h4>
